@@ -11,26 +11,26 @@ public class Task1_2 {
 
         // Второе задание
         for (int i = 0; i <= numbers.length - 1; i++) {
-            if (i < numbers.length - 1) {
-                System.out.print(numbers[i] + ",");
-            } else {
+            if (i == numbers.length - 1) {
                 System.out.print(numbers[i]);
+            } else {
+                System.out.print(numbers[i] + ",");
             }
         }
         System.out.println();
         for (int i = 0; i <= numbers2.length - 1; i++) {
-            if (i < numbers2.length - 1) {
-                System.out.print(numbers2[i] + ",");
-            } else {
+            if (i == numbers2.length - 1) {
                 System.out.print(numbers2[i]);
+            } else {
+                System.out.print(numbers2[i] + ",");
             }
         }
         System.out.println();
         for (int i = 0; i <= names.length - 1; i++) {
-            if (i < names.length - 1) {
-                System.out.print(names[i] + ",");
-            } else {
+            if (i == names.length - 1) {
                 System.out.print(names[i]);
+            } else {
+                System.out.print(names[i] + ",");
             }
         }
     }

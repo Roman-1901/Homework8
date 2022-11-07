@@ -8,26 +8,26 @@ public class Task3 {
         String names[] = {"Роман", "Василий", "Геннадий", "Ирина", "Светлана"};
 
         for (int i = numbers.length - 1; i >= 0; i--) {
-            if (i > 0) {
-                System.out.print(numbers[i] + ",");
-            } else {
+            if (i == 0) {
                 System.out.print(numbers[i]);
+            } else {
+                System.out.print(numbers[i] + ",");
             }
         }
         System.out.println();
         for (int i = numbers2.length - 1; i >= 0; i--) {
-            if (i > 0) {
-                System.out.print(numbers2[i] + ",");
-            } else {
+            if (i == 0) {
                 System.out.print(numbers2[i]);
+            } else {
+                System.out.print(numbers2[i] + ",");
             }
         }
         System.out.println();
         for (int i = names.length - 1; i >= 0; i--) {
-            if (i > 0) {
-                System.out.print(names[i] + ",");
-            } else {
+            if (i == 0) {
                 System.out.print(names[i]);
+            } else {
+                System.out.print(names[i] + ",");
             }
         }
     }
