@@ -1,9 +1,9 @@
 public class Task3 {
     public static void main(String[] args) {
         int numbers[] = new int[3];
-        numbers[0] = 0;
-        numbers[1] = 1;
-        numbers[2] = 2;
+        numbers[0] = 1;
+        numbers[1] = 2;
+        numbers[2] = 3;
         double numbers2[] = {1.57, 7.654, 9.986};
         String names[] = {"Роман", "Василий", "Геннадий", "Ирина", "Светлана"};
 
